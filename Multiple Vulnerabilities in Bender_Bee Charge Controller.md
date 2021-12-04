@@ -2,7 +2,7 @@
 
 | **Product**    | **Vulnerable Version** | Fixed Version                                        | **Found**            |
 | -------------- | ---------------------- | ---------------------------------------------------- | -------------------- |
-|                |                        |                                                      |                      |
+|  Charge Controller |                        |                                                      |                      |
 | **CVE Number** | **Impact**             | **Homepage**                                         | **By**               |
 |                |                        | [starvlab.qianxin.com](http://starvlab.qianxin.com/) | delikely \| StarVLab |
 
