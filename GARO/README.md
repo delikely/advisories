@@ -13,29 +13,26 @@
 GARO AB is the parent company of the GARO Group.
 
 ### Vulnerability overview
-
-
-
-#### 1. Unauthenticated Command Injection(CVE-2021-45876)
-
-The `url` parameter of the function module `downloadAndUpdate` is vulnerable to an command Injection. Unfiltered user input is used to generate code  which then gets executed when downloading  new firmware.
-
-#### 2. Without Authentication(CVE-2021-45877)
+#### 1. Without Authentication(CVE-2021-45878)
 
 Lack of access control on the web manger pages that allows any user  to view and modify information.
 
-#### 3. Hard Coded Credentials for Tomcat Manager(CVE-2021-45878)
+#### 2. Hard Coded Credentials for Tomcat Manager(CVE-2021-45877)
 
 A hardcoded credential  in  `/etc/tomcat8/tomcat-user.xml`, which allows attackers to gain authorized access and control the tomcat completely; Normal user can't be modified or deleted the account .
 
+#### 3. Unauthenticated Command Injection(CVE-2021-45876)
+
+The `url` parameter of the function module `downloadAndUpdate` is vulnerable to an command Injection. Unfiltered user input is used to generate code  which then gets executed when downloading  new firmware.
+
+
 ### Proof of concept
 
-#### 1. Unauthenticated Command Injection 
+#### 1. Without Authentication
 
-#### 2. Without Authentication
+#### 2. Hard Coded Credentials for Tomcat Manager
 
-#### 3. Hard Coded Credentials for Tomcat Manager
-
+#### 3. Unauthenticated Command Injection 
 
 
 ### Solution
