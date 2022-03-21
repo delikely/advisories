@@ -1,10 +1,10 @@
 ## Multiple Vulnerabilities in GARO Wallbox
 
-| Product                  | Vulnerable Version | Fixed Version                                        | Found                |
-| :----------------------- | :----------------- | :--------------------------------------------------- | :------------------- |
-| GARO Wallbox GLB/GTB/GTC | <=185              |                                                      | 2021.09.16           |
-| **CVE Number**           | **Impact**         | **Homepage**                                         | **By**               |
-|                          | critical           | [starvlab.qianxin.com](http://starvlab.qianxin.com/) | delikely \| StarVLab |
+| Product                    | Vulnerable Version | Fixed Version                                        | Found                |
+| :------------------------- | :----------------- | :--------------------------------------------------- | :------------------- |
+| GARO Wallbox GLB/GTB/GTC   | <=185              |                                                      | 2021.09.16           |
+| **CVE Number**             | **Impact**         | **Homepage**                                         | **By**               |
+| CVE-2021-45876/45877/45878 | critical           | [starvlab.qianxin.com](http://starvlab.qianxin.com/) | delikely \| StarVLab |
 
 ### Vendor description
 
@@ -14,27 +14,25 @@ GARO AB is the parent company of the GARO Group.
 
 ### Vulnerability overview
 
-#### 1. Without Authentication
 
-Lack of access control on the web manger pages that allows any user  to view and modify information.
 
-#### 2. Unauthenticated Command Injection 
+#### 1. Unauthenticated Command Injection(CVE-2021-45876)
 
 The `url` parameter of the function module `downloadAndUpdate` is vulnerable to an command Injection. Unfiltered user input is used to generate code  which then gets executed when downloading  new firmware.
 
-#### 3.Hard Coded Credentials for Tomcat Manager
+#### 2. Without Authentication(CVE-2021-45877)
+
+Lack of access control on the web manger pages that allows any user  to view and modify information.
+
+#### 3. Hard Coded Credentials for Tomcat Manager(CVE-2021-45878)
 
 A hardcoded credential  in  `/etc/tomcat8/tomcat-user.xml`, which allows attackers to gain authorized access and control the tomcat completely; Normal user can't be modified or deleted the account .
 
 ### Proof of concept
 
-#### 1. Without Authentication
+#### 1. Unauthenticated Command Injection 
 
-
-
-#### 2. Unauthenticated Command Injection 
-
-
+#### 2. Without Authentication
 
 #### 3. Hard Coded Credentials for Tomcat Manager
 
@@ -46,6 +44,8 @@ A hardcoded credential  in  `/etc/tomcat8/tomcat-user.xml`, which allows attacke
 
 ### Vendor contact timeline
 
-- 2021-09-13 Contacting vendor through Email 
-- 2021-10-12  Contacting vendor through Email Again
+- 2021-09-13 Contacting vendor through Email.
+- 2021-10-12 Contacting vendor through Email Again.
 - 2021-12-25 We have not got in touch with GARO,Disclosure the advisory.
+- 2021-12-26 Reporting to CVE.
+- 2022-03-21 CVE Team assigned CVE number.
