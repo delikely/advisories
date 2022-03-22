@@ -1,2 +1,2 @@
-# disclose
+# Disclose
 Vulnerability Discloses 
