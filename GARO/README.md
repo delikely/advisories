@@ -1,10 +1,10 @@
 ## Multiple Vulnerabilities in GARO Wallbox
 
-| Product                    | Vulnerable Version | Fixed Version                                        | Found                |
-| :------------------------- | :----------------- | :--------------------------------------------------- | :------------------- |
-| GARO Wallbox GLB/GTB/GTC   | <=185              |                                                      | 2021.09.16           |
-| **CVE Number**             | **Impact**         | **Homepage**                                         | **By**               |
-| CVE-2021-45876/45877/45878 | critical           | [starvlab.qianxin.com](http://starvlab.qianxin.com/) | delikely \| StarVLab |
+| Product                    | Vulnerable Version | Fixed Version                                        | Found                                                |
+| :------------------------- | :----------------- | :--------------------------------------------------- | :--------------------------------------------------- |
+| GARO Wallbox GLB/GTB/GTC   | <=185              |                                                      | 2021.09.16                                           |
+| **CVE Number**             | **Impact**         | **Homepage**                                         | **By**                                               |
+| CVE-2021-45876/45877/45878 | critical           | [www.garo.se](https://www.garo.se)                   | delikely@[StarVLab](http://starvlab.qianxin.com/) |
 
 ### Vendor description
 
