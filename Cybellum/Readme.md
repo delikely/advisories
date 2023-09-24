@@ -24,5 +24,6 @@
 
 ### Vendor contact timeline
 
-- 2021-06-21 Contacting vendor through Email.
-- 2021-06-26 Cybellum confirmed this issue.
+- 2023-06-21 Contacting vendor through Email.
+- 2023-06-26 Cybellum confirmed this issue.
+- 2023-09-13 CVE RESERVED
