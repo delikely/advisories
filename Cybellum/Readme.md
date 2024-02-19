@@ -12,10 +12,11 @@
 
 ### Vulnerability overview
 
+[Details](https://delikely.github.io/2024/02/18/Cybellum-RCE/)
 
 
 ### Proof of concept
-
+![](https://delikely.eu.org/2024/02/18/Cybellum-RCE/cybellum_backdoor_exp.gif)
 
 
 ### Solution
@@ -27,3 +28,7 @@
 - 2023-06-21 Contacting vendor through Email.
 - 2023-06-26 Cybellum confirmed this issue.
 - 2023-09-13 CVE RESERVED
+- 2023-10-09 Cybellum release of security advisory.
+- 2024-02-18 release this security advisory.
+
+
